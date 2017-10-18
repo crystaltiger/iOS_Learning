@@ -24,6 +24,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)changeText:(UIButton *)sender {
+    _myTitle.text=@"Jeff";
+}
 
 
 @end
